@@ -14,8 +14,8 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - echo Compiling the frontend
-      - npm run build
+      # - echo Compiling the frontend (make build version from development stage to reduce the build time)
+      # - npm run build
       - echo Compile Nodejs 
       - npm start
   post_build:
