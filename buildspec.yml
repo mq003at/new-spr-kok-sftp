@@ -6,7 +6,7 @@ phases:
     runtime-versions:
       nodejs: 10
     commands:
-      - npm install -g npm@latest
+      - n 16.15.1
       - npm install 
   pre_build:
     commands:
