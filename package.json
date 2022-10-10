@@ -1,9 +1,9 @@
 {
-  "name": "api",
+  "name": "package",
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www",
+    "start": "node ./backend/api/bin/www",
     "build": "cd ../../frontend && npm install && npm run build",
     "build-no-i": "cd ../../frontend && npm run build"
   },
